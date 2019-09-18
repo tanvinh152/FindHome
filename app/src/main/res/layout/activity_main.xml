@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:background="#F5F5F5"
+        tools:context=".MainActivity">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"/>
+        <TextView
+            android:id="@+id/textHome1"
+            android:text="Phòng tiện nghi có gác đẹp đường Nguyễn Hữu Thọ"
+            android:textSize="20dp"
+            android:textColor="#4267B2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:id="@+id/txtHome2"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:drawableLeft="@drawable/pin"
+            android:padding="2dp"
+            android:text="Đường Nguyễn Hữu Thọ, Phường Tân Quy, Quận 7, Hồ Chí Minh" />
+
+        <TextView
+            android:id="@+id/txtHome3"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="0938226782 - Hy Quang"
+            android:padding="2dp"
+            android:drawableLeft="@drawable/phone"/>
+        <TextView
+            android:id="@+id/txtHome4"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Diện tích 25m2"
+            android:padding="2dp"
+            android:drawableLeft="@drawable/acreage"/>
+        <TextView
+            android:id="@+id/txtHome5"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="3 giờ trước"
+            android:padding="2dp"
+            android:drawableLeft="@drawable/time"/>
+        <TextView
+            android:id="@+id/txtHome6"
+            android:text="Mô tả chi tiết"
+            android:textSize="15dp"
+            android:textColor="#4267B2"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:padding="2dp"/>
+        <TextView
+            android:id="@+id/txtHome7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut fringilla neque. Fusce id enim elementum, fringilla erat vitae, dignissim erat. Pellentesque viverra molestie risus, in viverra ante suscipit id. In a tristique nisl. Maecenas vitae rhoncus mauris. Etiam mollis pellentesque libero et fringilla. Sed sit amet hendrerit odio, sit amet aliquet justo. Duis eget magna vel mi sollicitudin tempor. Nullam blandit quis magna eu sagittis. Maecenas vitae consequat nisi. Donec tempus posuere orci vel aliquam. Cras tellus eros, pretium ac mattis eu, congue a dui. Aenean scelerisque pretium consequat. Donec non tristique urna, vitae tristique nisi.
+
+Sed congue metus eu augue porta, eu commodo libero accumsan. Suspendisse commodo scelerisque sem, eget condimentum lorem mattis quis. Mauris ultrices egestas tortor in pulvinar. Duis quis ligula finibus, dapibus nulla et, tristique est. Morbi dapibus ac massa quis imperdiet. Cras vehicula imperdiet mauris, eu pretium nisi. Donec sed tortor sed lacus imperdiet dapibus id sed quam. Mauris eleifend nibh finibus eros gravida, ac finibus lectus faucibus. Donec pretium diam id mi pellentesque egestas. Phasellus elit nibh, tempor nec mauris quis, lobortis placerat risus. Nulla nec purus non tellus mattis ullamcorper vel a sapien. Morbi aliquet, tortor eu molestie viverra, est felis lacinia velit, in congue felis nibh id ante.
+
+Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis consectetur imperdiet elit et lobortis. Sed rhoncus, massa non iaculis interdum, enim lectus sodales eros, ut gravida erat risus in purus. Etiam vulputate molestie mauris, eu laoreet mauris finibus vitae. Proin velit nibh, consequat maximus imperdiet sit amet, scelerisque quis ex. Aliquam venenatis turpis at posuere consectetur. Pellentesque condimentum elit ligula, eget aliquet metus pellentesque eu. Sed placerat lacus ipsum, eget commodo nisi egestas ut. Nunc accumsan lacus nisi, ut efficitur risus volutpat non. Aliquam neque ex, fringilla at libero ac, feugiat volutpat tellus. Quisque vehicula tempor lacinia. Cras laoreet purus rhoncus, consectetur lorem at, sodales nisi. Aliquam ut pretium dolor, ut sollicitudin diam."/>
+    </LinearLayout>
+</ScrollView>
